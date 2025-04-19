@@ -6,7 +6,7 @@ const Portfolio = () => {
     return (
         <div className="blockAnimation mt-20">
             <h2 className="gradient-text text-[30px] lg:text-[49px] text-center mb-[30px]">Portfolio</h2>
-            <div className="grid gap-8 justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-8">
+            <div className="grid gap-8 justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {projectData.map((item) => (
                 <Jumbotron 
                     img={item.image}
