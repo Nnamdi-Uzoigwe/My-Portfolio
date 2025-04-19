@@ -7,7 +7,7 @@ const Jumbotron = ( {img, name, desc, link, github} ) => {
     
             <div className="bg-white text-black flex flex-col rounded-xl h-[400px] w-full max-w-[400px] overflow-hidden ">
                    <img src={img} className="h-[200px]" />
-                   <h4 className="font-semibold text-black p-2">{name}</h4>
+                   <h4 className="font-semibold text-[#003459] p-2">{name}</h4>
 
                    <p className="p-2 text-sm">
                     {desc}
