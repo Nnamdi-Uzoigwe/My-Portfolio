@@ -22,20 +22,20 @@ const projectData = [
     {
       id: 3,
       image: portfolioImg3,
-      name: "Ecommerce Website",
-      description: "An Ecommerce website that generates links and gives users unique websites.",
+      name: "Movie Ticket Platform",
+      description: "A website where people can book seats to view movies at the cinema.",
     },
     {
       id: 4,
       image: portfolioImg4,
-      name: "Ecommerce Website",
-      description: "An Ecommerce website that generates links and gives users unique websites.",
+      name: "Coffee Shop Landing Page",
+      description: "A Coffee Shop Landing Page",
     },
     {
-      id: 4,
+      id: 5,
       image: portfolioImg5,
-      name: "Ecommerce Website",
-      description: "An Ecommerce website that generates links and gives users unique websites.",
+      name: "Scoot Website Clone",
+      description: "A Design of a Landing Page design on Figma for Scooter Rentals.",
     },
     {
       id: 6,
