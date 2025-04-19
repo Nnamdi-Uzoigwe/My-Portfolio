@@ -14,6 +14,7 @@ const Portfolio = () => {
                     desc={item.description}
                     link={item.link}
                     github={item.github}
+                    stack={item.stack}
                 />
 
             ))}
