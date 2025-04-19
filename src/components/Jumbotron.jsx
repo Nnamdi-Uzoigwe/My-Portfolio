@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa6";
 const Jumbotron = ( {img, name, desc, link, github} ) => {
     return (
     
-            <div className="bg-white text-black flex flex-col rounded-xl h-[400px] w-[400px] overflow-hidden">
+            <div className="bg-white text-black flex flex-col rounded-xl h-[400px] w-[400px] overflow-hidden ">
                    <img src={img} className="h-[200px]" />
                    <h4 className="font-semibold text-black p-2">{name}</h4>
 
