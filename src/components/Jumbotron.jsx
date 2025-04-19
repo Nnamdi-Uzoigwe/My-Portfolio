@@ -24,7 +24,7 @@ const Jumbotron = ( {img, name, desc, link, github, stack} ) => {
 
     return (
     
-            <div className="bg-white text-black flex flex-col shadow-lg rounded-xl h-[400px] w-full max-w-[400px] overflow-hidden transition-transform duration-300 hover:-translate-y-2">
+            <div className="bg-white text-black flex flex-col shadow-lg rounded-xl h-auto md:h-[400px] w-full max-w-[400px] overflow-hidden transition-transform duration-300 hover:-translate-y-2">
                    <div className="h-1/2 w-full">
                    <img src={img} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
                    </div>
@@ -48,7 +48,7 @@ const Jumbotron = ( {img, name, desc, link, github, stack} ) => {
                    <div className="mt-2 flex p-2 justify-between">
                         <a href={link} target="_blank" className="flex rounded-lg gap-2 items-center border-[1px] border-[#003459] p-2 text-sm">Live Link <span><FaExternalLinkAlt /></span></a>
 
-                        <a href={github}  target="_blank" className="border-[1px] border-[#003459]  h-8 w-8 rounded-full flex justify-center items-center border-gray-300"><FaGithub className="text-xl" /></a>
+                        <a href={github}  target="_blank" className="border-[1px] border-[#003459]  h-8 w-8 rounded-full flex justify-center items-center"><FaGithub className="text-xl" /></a>
                    </div>
             </div>
     )
