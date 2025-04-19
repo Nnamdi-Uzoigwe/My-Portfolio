@@ -1,30 +1,23 @@
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
-const Jumbotron = ({ projects }) => {
+
+const Jumbotron = ( {img, name, desc, link, github} ) => {
     return (
     
-            <div className="flex flex-wrap justify-center gap-8">
-                    {projects.map((project) => (
-                        <div
-                        key={project.id}
-                        className="relative group w-[330px] lg:w-[393px] h-[250px] lg:h-[400px] overflow-hidden rounded-lg shadow-lg cursor-pointer"
-                        >
-                      
-                        <img
-                            src={project.image}
-                            alt={`Project ${project.id}`}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                        />
+            <div className="bg-white text-black flex flex-col rounded-xl h-[400px] w-[400px] overflow-hidden">
+                   <img src={img} className="h-[200px]" />
+                   <h4 className="font-semibold text-black p-2">{name}</h4>
 
-                       
-                        <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                <h2 class="text-white text-xl font-semibold mb-8">E-commerce Website</h2>
-                                <p class="text-white text-normal font-semibold mb-4 text-center w-[85%]">
-                                    An Ecommerce website that generates links and gives users unique websites.
-                                </p>
-                                <button className="bg-[#00171f] text-white rounded-[8px] p-2">View Project</button>
-                        </div>
-                        </div>
-                    ))}
+                   <p className="p-2 text-sm">
+                    {desc}
+                   </p>
+
+                   <div className="flex p-2 justify-between">
+                        <a href={link} target="_blank" className="flex gap-2 items-center border-[1px] border-gray-300 p-2 text-sm">Live Link <span><FaExternalLinkAlt /></span></a>
+
+                        <a href={github}  target="_blank" className="border-[1px] h-8 w-8 rounded-full flex justify-center items-center border-gray-300"><FaGithub className="text-xl" /></a>
+                   </div>
             </div>
     )
 }
