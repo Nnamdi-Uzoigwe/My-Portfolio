@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="hero-text xs:mr-0 sm:mr-10 ">
                 <div className="xs:text-[22px] sm:text-[29px] md:text-[25px] lg:text-[30px] xl:text-[49px] mb-10">
                     <h1>Hello, I am</h1>
-                    <h1>Nnamdi Uzoigwe a Full</h1>
+                    <h1>Nnamdi Uzoigwe a MERN</h1>
                     <h1>Stack Developer.</h1>
                 </div>
 

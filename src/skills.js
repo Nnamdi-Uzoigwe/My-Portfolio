@@ -1,34 +1,34 @@
-import python from "./assets/python.png"
+import express from "./assets/express.png"
 import js from "./assets/JS.png"
-import html from "./assets/html.png"
-import firebase from "./assets/Firebase.png"
+import supabase from "./assets/supabase.png"
 import git from "./assets/git.png"
 import react from "./assets/react.png"
 import mongodb from "./assets/mongodb.png"
 import typescript from "./assets/ts.png"
-import css from "./assets/css.png"
+import tailwind from "./assets/tailwind.png"
+import next from "./assets/Nextjs.png"
 
 
 const skills = [
     {
         id: 1,
-        skillName: "Python",
-        img: python
+        skillName: "Next.js",
+        img: next
     },
     {
         id: 2,
-        skillName: "Javascript",
-        img: js
+        skillName: "React.js",
+        img: react
     },
     {
         id: 3,
-        skillName: "HTML",
-        img: html
+        skillName: "Express.js",
+        img: express
     },
     {
         id: 4,
-        skillName: "Firebase",
-        img: firebase
+        skillName: "Supabase",
+        img: supabase
     },
     {
         id: 5,
@@ -37,18 +37,18 @@ const skills = [
     },
     {
         id: 6,
-        skillName: "Git",
-        img: git
+        skillName: "TailwindCSS",
+        img: tailwind
     },
     {
         id: 7,
-        skillName: "CSS",
-        img: css
+        skillName: "Javascript",
+        img: js
     },
     {
         id: 8,
-        skillName: "ReactJS",
-        img: react
+        skillName: "Git",
+        img: git
     },
     {
         id: 9,

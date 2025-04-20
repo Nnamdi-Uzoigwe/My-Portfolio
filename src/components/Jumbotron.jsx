@@ -45,10 +45,10 @@ const Jumbotron = ( {img, name, desc, link, github, stack} ) => {
                         </div>
 
                     </div>
-                   <div className="mt-2 flex p-2 justify-between">
-                        <a href={link} target="_blank" className="flex rounded-lg gap-2 items-center border-[1px] border-[#003459] p-2 text-sm">Live Link <span><FaExternalLinkAlt /></span></a>
+                   <div className="mt-2 flex p-2 items-center gap-3">
+                        <a href={link} target="_blank" className="cursor-pointer flex rounded-lg gap-2 items-center border-[1px] border-[#003459] p-2 text-sm">Live Link <span><FaExternalLinkAlt /></span></a>
 
-                        <a href={github}  target="_blank" className="border-[1px] border-[#003459]  h-8 w-8 rounded-full flex justify-center items-center"><FaGithub className="text-xl" /></a>
+                        <a href={github}  target="_blank" className="cursor-pointer border-[1px] border-[#003459] p-2 rounded-lg flex justify-center items-center text-sm">Github<FaGithub className=" ml-2 text-xl" /></a>
                    </div>
             </div>
     )
