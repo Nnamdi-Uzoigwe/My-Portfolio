@@ -5,6 +5,7 @@ import portfolioImg4 from "../assets/coffee-landing-page.png"
 import portfolioImg5 from "../assets/vilancy-site.png"
 import portfolioImg6 from "../assets/product-cart.png"
 import portfolioImg7 from "../assets/scoot-website.png"
+import portfolioImg8 from "../assets/foodie-landing-page.jpg"
 
 
 const projectData = [
@@ -113,14 +114,16 @@ const projectData = [
     },
     {
       id: 8,
-      image: portfolioImg1,
-      name: "Ecommerce Website",
-      description: "An Ecommerce website that generates links and gives users unique websites.",
+      image: portfolioImg8,
+      name: "Foodie Landing Page",
+      description: "A beautiful landing page",
       stack: [
         { id: 1, icon: "React" },
         { id: 2, icon: "Vite" },
-        { id: 3, icon: "Tailwind" }
-      ]
+        { id: 3, icon: "Typescript" }
+      ],
+      link: "https://foodie-landing-page-self.vercel.app",
+      github: "https://github.com/Nnamdi-Uzoigwe/Foodie-Landing-Page"
     },
     {
       id: 9,
