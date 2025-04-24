@@ -24,20 +24,19 @@ const Jumbotron = ( {img, name, desc, link, github, stack} ) => {
 
     return (
     
-            <div className="bg-white text-black flex flex-col shadow-lg rounded-xl h-auto md:h-[400px] w-full max-w-[400px] overflow-hidden transition-transform duration-300 hover:-translate-y-2">
+            <div className="bg-white text-black flex flex-col shadow-lg rounded-xl h-auto md:h-[400px] w-[95%] lg:w-full max-w-[400px] overflow-hidden transition-transform duration-300 hover:-translate-y-2">
                    <div className="h-1/2 w-full">
                    <img src={img} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
                    </div>
                    
-                   <h4 className="font-bold text-[#003459] p-2">{name}</h4>
+                   <h4 className="font-bold text-[#003459] p-[4px]">{name}</h4>
 
-                   <p className="p-2 text-sm text-[#003459]">
+                   <p className="p-[4px] text-sm text-[#003459]">
                     {desc}
                    </p>
 
-                    <div className="px-2 flex items-center">
+                    <div className="px-[4px] flex items-center">
                         <p className="text-sm text-[#003459]">Built with:</p>
-                        {/* STACK ICONS */}
                         <div className="flex p-2 gap-2">
                             {stack?.map((tech) => (
                             <span className="text-xl font-semibold" key={tech.id}>{iconMap[tech.icon]}</span>
@@ -55,3 +54,4 @@ const Jumbotron = ( {img, name, desc, link, github, stack} ) => {
 }
 
 export default Jumbotron
+
