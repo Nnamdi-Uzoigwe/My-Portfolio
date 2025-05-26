@@ -3,7 +3,7 @@ import Card from "../components/Card"
 
 const MySkills = () => {
     return (
-        <div className="blockAnimation mt-30 lg:mt-10">
+        <div className="jump-in-animation mt-30 lg:mt-10">
             <h2 className="gradient-text text-[30px] lg:text-[49px] text-center mb-[30px]">My Skills</h2>
             
             <div className="hidden lg:block">

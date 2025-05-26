@@ -1,6 +1,6 @@
 const WorkExperience = () => {
     return (
-        <div className="blockAnimation mt-28">
+        <div className="jump-in-animation mt-28">
             <h2 className="gradient-text text-[30px] lg:text-[49px] text-center mb-[30px]">Experience</h2>
 
             <div className="flex flex-wrap gap-10 justify-center">

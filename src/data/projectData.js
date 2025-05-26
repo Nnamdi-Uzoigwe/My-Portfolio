@@ -1,4 +1,4 @@
-import portfolioImg1 from "../assets/favour-realtor.png"
+import portfolioImg1 from "../assets/period-tracker.png"
 import portfolioImg2 from "../assets/lilies-food-app.png"
 import portfolioImg3 from "../assets/ai-saas.png"
 import portfolioImg4 from "../assets/coffee-landing-page.png"
@@ -6,27 +6,28 @@ import portfolioImg5 from "../assets/vilancy-site.png"
 import portfolioImg6 from "../assets/product-cart.png"
 import portfolioImg7 from "../assets/scoot-website.png"
 import portfolioImg8 from "../assets/foodie-landing-page.jpg"
+import portfolioImg9 from "../assets/favour-realtor.png"
 
 
 const projectData = [
     {
       id: 1,
       image: portfolioImg1,
-      name: "Favour-Realtors Site",
-      description: "A platform where people can view properties for rent/sale across the country, and can also create listings",
+      name: "Celestia Web Application",
+      description: "A mini period tracking application for predicting fertile window, ovulation and next period",
       stack: [
         {
           id: 1,
-          icon: "Next"
+          icon: "React"
         },
        
         {
           id: 2,
-          icon: "Tailwind"
+          icon: "Vite"
         },
         {
           id: 3,
-          icon: "Clerk"
+          icon: "Tailwind"
         },
         {
           id: 4,
@@ -34,7 +35,7 @@ const projectData = [
         },
         {
           id: 5,
-          icon:"Supabase"
+          icon:"Express"
         }
       ],
       link: "https://scoot-website-clone.vercel.app/",
@@ -127,14 +128,35 @@ const projectData = [
     },
     {
       id: 9,
-      image: portfolioImg4,
-      name: "Ecommerce Website",
-      description: "An Ecommerce website that generates links and gives users unique websites.",
+      image: portfolioImg9,
+      name: "Favour-Realtors Site",
+      description: "A platform where people can view properties for rent/sale across the country, and can also create listings",
       stack: [
-        { id: 1, icon: "React" },
-        { id: 2, icon: "Vite" },
-        { id: 3, icon: "Tailwind" }
-      ]
+        {
+          id: 1,
+          icon: "Next"
+        },
+       
+        {
+          id: 2,
+          icon: "Tailwind"
+        },
+        {
+          id: 3,
+          icon: "Clerk"
+        },
+        {
+          id: 4,
+          icon: "Mongodb"
+        },
+        {
+          id: 5,
+          icon:"Supabase"
+        }
+      ],
+      link: "https://scoot-website-clone.vercel.app/",
+      github: "https://github.com/Nnamdi-Uzoigwe/scoot-website-clone",
+
     },
   ];
   
